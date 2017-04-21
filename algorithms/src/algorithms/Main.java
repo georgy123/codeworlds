@@ -1,7 +1,13 @@
 package algorithms;
 
 import java.util.Scanner;
-
+/**
+ * 回文序列
+ * 
+ *@author wqz
+ *
+ * @date 2017年3月26日
+ */
 public class Main {
   public static void main(String[] args) {
 		    Scanner scanner = new Scanner(System.in);
