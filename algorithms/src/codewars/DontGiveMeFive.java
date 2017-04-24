@@ -24,17 +24,15 @@ public class DontGiveMeFive {
 	 */
 	public static int dontGiveMeFive(int start, int end)
 	  {
-	    int scount =end-start;
-	    int count5 =0;
-		return 0;
+		 int count =0;
+	    for (int i = start; i<=end; i++) {
+			 if(!String.valueOf(i).contains("5")){
+				 count++;
+			 }
+		}
+		return count;
 	  }
 	public static void main(String[] args) {
-		int count =0;
-		int number = 12;
-		while(number>0){
-			number/=10;
-			count++;
-		}
-		System.out.println(count);
+		System.out.println(dontGiveMeFive(4,17));
 	}
 }

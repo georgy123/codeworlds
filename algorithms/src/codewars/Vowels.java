@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
   * 
-  * 统计字符串元音字母的个数(a,e,i,o,u为元音字母)
+  * 统计字符串中元音字母的个数(a,e,i,o,u为元音字母)
   *
   *@author wqz
   *
@@ -22,6 +22,11 @@ public class Vowels {
 	    }
 	    return vowelsCount;
 	  }
+	/**
+	 * Others better lamada表达式
+	 * @param str
+	 * @return 元音的个数
+	 */
 	public static int getCount2(String str) {
 	     
 		  return (int) str.chars().filter(c -> "aeiou".indexOf(c) >= 0).count();   //java的新特性lambda表达式

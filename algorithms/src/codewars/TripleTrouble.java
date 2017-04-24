@@ -15,6 +15,12 @@ TripleDouble(666789, 12345667) == 1
  * @date 2017年4月10日
  */
 public class TripleTrouble {
+	/**
+	 * 
+	 * @param num1
+	 * @param num2
+	 * @return 1 or 0
+	 */
 	public static int TripleDouble(long num1, long num2) 
 	  {
 	    String str1 = String.valueOf(num1);
@@ -78,6 +84,12 @@ public class TripleTrouble {
         }
         return temp;
 	}
+	/**
+	 *Others better
+	 * @param num1
+	 * @param num2
+	 * @return
+	 */
  public static int TripleDouble2(long num1, long num2){
 	 String s = String.valueOf(num1) + " " + String.valueOf(num2);
 	 return (s.matches(".*(\\d){3}.*\\s.*\\1{2}.*") ? 1 : 0);  
