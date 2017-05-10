@@ -52,7 +52,7 @@ public class MissingArray {
 		return 0;
 	  }
 	/**
-	 * others better
+	 * others 
 	 * @param arrayOfArrays
 	 * @return
 	 */
