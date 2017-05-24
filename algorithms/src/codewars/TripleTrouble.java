@@ -94,6 +94,22 @@ public class TripleTrouble {
 	 String s = String.valueOf(num1) + " " + String.valueOf(num2);
 	 return (s.matches(".*(\\d){3}.*\\s.*\\1{2}.*") ? 1 : 0);  
  }
+ /**
+  * 数字0~9看看那个数字重复3次和2次
+  * @param num1
+  * @param num2
+  * @return
+  */
+ public static int TripleDouble3(long num1, long num2) 
+ {
+   String n1str = String.valueOf(num1);
+   String n2str = String.valueOf(num2);
+   for(int i=0;i<10;i++) {
+     String n = String.valueOf(i);
+     if( n1str.contains(n+n+n) && n2str.contains(n+n) ) return 1;
+   }
+   return 0;
+ }
 	public static void main(String[] args) {
 		System.out.println(TripleDouble2(45199977254666L, 41177722899L));
 	}

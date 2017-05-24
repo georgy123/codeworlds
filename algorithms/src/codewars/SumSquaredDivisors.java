@@ -57,7 +57,7 @@ public class SumSquaredDivisors {
     }
     
     
-    public static long sumOfSquareDivisors(long n) {
+public static long sumOfSquareDivisors(long n) {
         return LongStream.range(1, n + 1)
                 .filter(i -> n % i == 0)
                 .map(i -> i * i)                        //java8的新特性

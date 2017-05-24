@@ -60,7 +60,7 @@ public static String backwardsPrime2(long start, long end) {
      while(start <= end){
       int rev = Integer.parseInt(new StringBuilder(
         String.valueOf(start)).reverse().toString());
-      if(start > 12 && isPrime(rev) && isPrime(start) && start != rev) 
+      if(start > 12 && isPrime2(rev) && isPrime2(start) && start != rev) 
         sb.append(start + " ");  
       start++;
     }
