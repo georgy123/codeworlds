@@ -1,6 +1,4 @@
-# codewar
- Improve  programming skills by training with others on real code challenges.  
-## codewars completed follows：
+ ## codewars completed follows：
 1. Breadcrumb Generator(4kyu)
 2. Longest Common Subsequence(4kyu)
 3. Next smaller number with the same digits(4kyu)
