@@ -76,7 +76,6 @@ public class Scramblies {
 	          if (!str1.contains(s))  return false;
 	          str1 = str1.replaceFirst(s,"");              //每匹配一个就用去掉
 	        }        
-	       
 	        return true;
 	    }
 	  /**
