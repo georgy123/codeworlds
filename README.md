@@ -1,5 +1,5 @@
  ## codewars completed follows：
-1. Breadcrumb Generator(4kyu)
+1. [Breadcrumb Generator(4kyu)](https://github.com/georgy123/codeworlds/blob/master/algorithms/src/codewars/BreadcrumbGenerator.java)
 2. Longest Common Subsequence(4kyu)
 3. Next smaller number with the same digits(4kyu)
 4. Phone Directory(5kyu)
